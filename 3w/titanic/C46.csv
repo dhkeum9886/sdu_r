@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"61",1,0,"Cavendish, Mr. Tyrell William","male",36,1,0,"19877",78.85,"C46","S","",172,"Little Onn Hall, Staffs"
+"62",1,1,"Cavendish, Mrs. Tyrell William (Julia Florence Siegel)","female",76,1,0,"19877",78.85,"C46","S","6",NA,"Little Onn Hall, Staffs"

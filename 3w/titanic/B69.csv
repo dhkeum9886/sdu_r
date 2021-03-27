@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"155",1,0,"Hays, Mr. Charles Melville","male",55,1,1,"12749",93.5,"B69","S","",307,"Montreal, PQ"
+"156",1,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)","female",52,1,1,"12749",93.5,"B69","S","3",NA,"Montreal, PQ"

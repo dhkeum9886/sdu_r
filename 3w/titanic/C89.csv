@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"72",1,0,"Clark, Mr. Walter Miller","male",27,1,0,"13508",136.7792,"C89","C","",NA,"Los Angeles, CA"
+"73",1,1,"Clark, Mrs. Walter Miller (Virginia McDowell)","female",26,1,0,"13508",136.7792,"C89","C","4",NA,"Los Angeles, CA"

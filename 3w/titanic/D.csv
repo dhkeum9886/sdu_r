@@ -1,0 +1,5 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"334",2,1,"Ball, Mrs. (Ada E Hall)","female",36,0,0,"28551",13,"D","S","10",NA,"Bristol, Avon / Jacksonville, FL"
+"466",2,1,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)","female",23,0,0,"SC/AH Basle 541",13.7917,"D","C","11",NA,"New York, NY"
+"486",2,0,"Levy, Mr. Rene Jacques","male",36,0,0,"SC/Paris 2163",12.875,"D","C","",NA,"Montreal, PQ"
+"492",2,0,"Malachard, Mr. Noel","male",NA,0,0,"237735",15.0458,"D","C","",NA,"Paris"

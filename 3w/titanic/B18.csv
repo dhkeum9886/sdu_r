@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"160",1,1,"Hippach, Miss. Jean Gertrude","female",16,0,1,"111361",57.9792,"B18","C","4",NA,"Chicago, IL"
+"161",1,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)","female",44,0,1,"111361",57.9792,"B18","C","4",NA,"Chicago, IL"

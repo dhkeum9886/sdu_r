@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"94",1,1,"Dodge, Dr. Washington","male",53,1,1,"33638",81.8583,"A34","S","13",NA,"San Francisco, CA"
+"95",1,1,"Dodge, Master. Washington","male",4,0,2,"33638",81.8583,"A34","S","5",NA,"San Francisco, CA"
+"96",1,1,"Dodge, Mrs. Washington (Ruth Vidaver)","female",54,1,1,"33638",81.8583,"A34","S","5",NA,"San Francisco, CA"

@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"103",1,1,"Earnshaw, Mrs. Boulton (Olive Potter)","female",23,0,1,"11767",83.1583,"C54","C","7",NA,"Mt Airy, Philadelphia, PA"
+"154",1,1,"Hays, Miss. Margaret Bechstein","female",24,0,0,"11767",83.1583,"C54","C","7",NA,"New York, NY"

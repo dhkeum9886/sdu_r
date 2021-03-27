@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"82",1,0,"Crosby, Capt. Edward Gifford","male",70,1,1,"WE/P 5735",71,"B22","S","",269,"Milwaukee, WI"
+"83",1,1,"Crosby, Miss. Harriet R","female",36,0,2,"WE/P 5735",71,"B22","S","7",NA,"Milwaukee, WI"

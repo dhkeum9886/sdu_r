@@ -1,0 +1,5 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"350",2,1,"Brown, Miss. Amelia Mildred","female",24,0,0,"248733",13,"F33","S","11",NA,"London / Montreal, PQ"
+"381",2,1,"Cook, Mrs. (Selena Rogers)","female",22,0,0,"W./C. 14266",10.5,"F33","S","14",NA,"Pennsylvania"
+"485",2,1,"Lemore, Mrs. (Amelia Milley)","female",34,0,0,"C.A. 34260",10.5,"F33","S","14",NA,"Chicago, IL"
+"522",2,1,"Nye, Mrs. (Elizabeth Ramell)","female",29,0,0,"C.A. 29395",10.5,"F33","S","11",NA,"Folkstone, Kent / New York, NY"

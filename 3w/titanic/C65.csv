@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"229",1,0,"Penasco y Castellana, Mr. Victor de Satode","male",18,1,0,"PC 17758",108.9,"C65","C","",NA,"Madrid, Spain"
+"230",1,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)","female",17,1,0,"PC 17758",108.9,"C65","C","8",NA,"Madrid, Spain"

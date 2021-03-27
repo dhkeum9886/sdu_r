@@ -1,0 +1,2 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"23",1,1,"Behr, Mr. Karl Howell","male",26,0,0,"111369",30,"C148","C","5",NA,"New York, NY"

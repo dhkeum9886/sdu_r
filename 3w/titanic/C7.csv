@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"33",1,1,"Bonnell, Miss. Caroline","female",30,0,0,"36928",164.8667,"C7","S","8",NA,"Youngstown, OH"
+"310",1,1,"Wick, Miss. Mary Natalie","female",31,0,2,"36928",164.8667,"C7","S","8",NA,"Youngstown, OH"

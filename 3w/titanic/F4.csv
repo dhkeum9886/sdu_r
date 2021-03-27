@@ -1,0 +1,5 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"340",2,1,"Becker, Master. Richard F","male",1,2,1,"230136",39,"F4","S","11",NA,"Guntur, India / Benton Harbour, MI"
+"341",2,1,"Becker, Miss. Marion Louise","female",4,2,1,"230136",39,"F4","S","11",NA,"Guntur, India / Benton Harbour, MI"
+"342",2,1,"Becker, Miss. Ruth Elizabeth","female",12,2,1,"230136",39,"F4","S","13",NA,"Guntur, India / Benton Harbour, MI"
+"343",2,1,"Becker, Mrs. Allen Oliver (Nellie E Baumgardner)","female",36,0,3,"230136",39,"F4","S","11",NA,"Guntur, India / Benton Harbour, MI"

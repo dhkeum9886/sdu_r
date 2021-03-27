@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"309",1,1,"White, Mrs. John Stuart (Ella Holmes)","female",55,0,0,"PC 17760",135.6333,"C32","C","8",NA,"New York, NY / Briarcliff Manor NY"
+"323",1,1,"Young, Miss. Marie Grice","female",36,0,0,"PC 17760",135.6333,"C32","C","8",NA,"New York, NY / Washington, DC"

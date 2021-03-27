@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"90",1,0,"Davidson, Mr. Thornton","male",31,1,0,"F.C. 12750",52,"B71","S","",NA,"Montreal, PQ"
+"91",1,1,"Davidson, Mrs. Thornton (Orian Hays)","female",27,1,2,"F.C. 12750",52,"B71","S","3",NA,"Montreal, PQ"

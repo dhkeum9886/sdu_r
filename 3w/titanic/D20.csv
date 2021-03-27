@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"105",1,1,"Eustis, Miss. Elizabeth Mussey","female",54,1,0,"36947",78.2667,"D20","C","4",NA,"Brookline, MA"
+"283",1,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)","female",52,1,0,"36947",78.2667,"D20","C","4",NA,"Haverford, PA"

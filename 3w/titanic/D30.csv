@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"198",1,0,"Marvin, Mr. Daniel Warner","male",19,1,0,"113773",53.1,"D30","S","",NA,"New York, NY"
+"199",1,1,"Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)","female",18,1,0,"113773",53.1,"D30","S","10",NA,"New York, NY"

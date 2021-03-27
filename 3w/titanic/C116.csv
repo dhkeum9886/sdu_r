@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"281",1,1,"Stengel, Mr. Charles Emil Henry","male",54,1,0,"11778",55.4417,"C116","C","1",NA,"Newark, NJ"
+"282",1,1,"Stengel, Mrs. Charles Emil Henry (Annie May Morris)","female",43,1,0,"11778",55.4417,"C116","C","5",NA,"Newark, NJ"

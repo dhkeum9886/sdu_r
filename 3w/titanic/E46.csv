@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"158",1,0,"Hilliard, Mr. Herbert Henry","male",NA,0,0,"17463",51.8625,"E46","S","",NA,"Brighton, MA"
+"202",1,0,"McCarthy, Mr. Timothy J","male",54,0,0,"17463",51.8625,"E46","S","",175,"Dorchester, MA"

@@ -1,0 +1,2 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"25",1,1,"Bird, Miss. Ellen","female",29,0,0,"PC 17483",221.7792,"C97","S","8",NA,""

@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"140",1,1,"Graham, Mrs. William Thompson (Edith Junkins)","female",58,0,1,"PC 17582",153.4625,"C125","S","3",NA,"Greenwich, CT"
+"261",1,1,"Shutes, Miss. Elizabeth W","female",40,0,0,"PC 17582",153.4625,"C125","S","3",NA,"New York, NY / Greenwich CT"

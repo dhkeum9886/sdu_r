@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"195",1,0,"Maguire, Mr. John Edward","male",30,0,0,"110469",26,"C106","S","",NA,"Brockton, MA"
+"255",1,1,"Saalfeld, Mr. Adolphe","male",NA,0,0,"19988",30.5,"C106","S","3",NA,"Manchester, England"

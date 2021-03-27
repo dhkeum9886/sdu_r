@@ -1,0 +1,93 @@
+## 14-2
+
+install.packages("recommenderlab") #설치되지 않았으면 설치
+library(recommenderlab)
+
+url='https://raw.githubusercontent.com/PacktPublishing/R-Data-Analytics-Projects/master/Section04/product_ratings_data.csv'
+raw_data <- read.csv(url)
+str(raw_data)
+head(raw_data)
+summary(raw_data)
+
+table(raw_data$Ratings)
+# summary(raw_data)
+# 데이터로부터 평가 매트릭스 생성하기
+ratings_matrix <- as(raw_data, "realRatingMatrix")
+str(ratings_matrix)
+ratings_matrix
+
+# 변환된 데이터 보기 
+image(ratings_matrix[1:6,1:10])
+
+
+#평점 매트릭스로부터 샘플 추출
+sample_ratings <- sample(ratings_matrix, 1000)
+
+# 첫 번째 사용자로부터 얻은 평균 제품 평가
+sample_ratings[1,]
+rowMeans(sample_ratings[1,])
+
+# 아이템 평점의 분포
+hist(getRatings(sample_ratings), breaks=100, xlab="Product Ragings",
+main = " Histogram of Product Ragings")
+
+## 정규화된 아이템 평점의 분포
+hist(getRatings(normalize(sample_ratings)), breaks=100,
+xlab = "Normalized Product Ratings",
+main = " Histogram of Normalized Product Ratings")
+
+
+## 사용자별 평점 아이템 수
+hist(rowCounts(sample_ratings), breaks=50, xlab = "Number of Products",
+main = " Histogram of Product count Distribution")
+
+
+#### 모델 개발 및 예측
+# 사용자 기반 협업 필터링 모델 생성
+ubcf_recommender <- Recommender(ratings_matrix[1:1000], "UBCF")
+
+# UBCF = User-Based Collaborative Filterings: 사용자기반
+# IBCF = Item-Based Collaborative Filterings: 아이템 기반
+# Principal Component Analysis: 주성분 분석
+
+
+
+# 사용자에게 추천할 예상 제품 리스트
+recommendations <- predict(ubcf_recommender, ratings_matrix[1010:1011], n=5)
+# 리스트 형태로 추천 출력
+as(recommendations, "list")
+
+
+# 모델평가
+eval_scheme <- evaluationScheme(ratings_matrix[1:500], method="split",
+train=0.9, given=15)
+# 평가안 출력
+eval_scheme
+
+
+
+#UBCF를 사용한 모델 훈련
+# 모델 훈련
+training_recommender <- Recommender(getData(eval_scheme, "train"), "UBCF")
+# 테스트 데이터상의 예측
+test_rating <- predict(training_recommender, getData(eval_scheme, "known"),
+type="ratings")
+# 오류
+error <- calcPredictionAccuracy(test_rating, getData(eval_scheme,"unknown"))
+error
+
+# IBCF를 사용한 트레이닝 모델
+training_recommender_2 <- Recommender(getData(eval_scheme, "train"),"IBCF")
+# 테스트 데이터 세트상의 예측
+test_rating_2 <-
+predict(training_recommender_2, getData(eval_scheme, "known"), type="ratings")
+
+
+
+#사용자, 아이템 기반 비교
+error_compare <- 
+rbind(calcPredictionAccuracy(test_rating, getData(eval_scheme, "unknown")),
+calcPredictionAccuracy(test_rating_2, getData(eval_scheme,"unknown")))
+rownames(error_compare) <- c("User Based CF", "Item Based CF")
+rownames(error_compare) 
+error_compare

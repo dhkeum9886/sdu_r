@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"9",1,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)","female",53,2,0,"11769",51.4792,"C101","S","D",NA,"Bayside, Queens, NY"
+"43",1,1,"Brown, Mrs. John Murray (Caroline Lane Lamson)","female",59,2,0,"11769",51.4792,"C101","S","D",NA,"Belmont, MA"
+"80",1,1,"Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)","female",55,2,0,"11770",25.7,"C101","S","2",NA,"New York, NY"

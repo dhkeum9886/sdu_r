@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"274",1,1,"Spedden, Master. Robert Douglas","male",6,0,2,"16966",134.5,"E34","C","3",NA,"Tuxedo Park, NY"
+"275",1,1,"Spedden, Mr. Frederic Oakley","male",45,1,1,"16966",134.5,"E34","C","3",NA,"Tuxedo Park, NY"
+"276",1,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)","female",40,1,1,"16966",134.5,"E34","C","3",NA,"Tuxedo Park, NY"

@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"63",1,0,"Chaffee, Mr. Herbert Fuller","male",46,1,0,"W.E.P. 5734",61.175,"E31","S","",NA,"Amenia, ND"
+"64",1,1,"Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)","female",47,1,0,"W.E.P. 5734",61.175,"E31","S","4",NA,"Amenia, ND"

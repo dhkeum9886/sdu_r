@@ -1,0 +1,2 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"123",1,1,"Frolicher, Miss. Hedwig Margaritha","female",22,0,2,"13568",49.5,"B39","C","5",NA,"Zurich, Switzerland"

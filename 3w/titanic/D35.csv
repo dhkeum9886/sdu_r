@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"21",1,1,"Beckwith, Mr. Richard Leonard","male",37,1,1,"11751",52.5542,"D35","S","5",NA,"New York, NY"
+"22",1,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)","female",47,1,1,"11751",52.5542,"D35","S","5",NA,"New York, NY"

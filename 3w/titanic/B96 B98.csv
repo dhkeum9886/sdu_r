@@ -1,0 +1,5 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"55",1,1,"Carter, Master. William Thornton II","male",11,1,2,"113760",120,"B96 B98","S","4",NA,"Bryn Mawr, PA"
+"56",1,1,"Carter, Miss. Lucile Polk","female",14,1,2,"113760",120,"B96 B98","S","4",NA,"Bryn Mawr, PA"
+"57",1,1,"Carter, Mr. William Ernest","male",36,1,2,"113760",120,"B96 B98","S","C",NA,"Bryn Mawr, PA"
+"58",1,1,"Carter, Mrs. William Ernest (Lucile Polk)","female",36,1,2,"113760",120,"B96 B98","S","4",NA,"Bryn Mawr, PA"

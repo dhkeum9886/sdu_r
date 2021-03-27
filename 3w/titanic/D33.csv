@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"146",1,1,"Harper, Mr. Henry Sleeper","male",48,1,0,"PC 17572",76.7292,"D33","C","3",NA,"New York, NY"
+"147",1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)","female",49,1,0,"PC 17572",76.7292,"D33","C","3",NA,"New York, NY"

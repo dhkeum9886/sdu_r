@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"68",1,1,"Cherry, Miss. Gladys","female",30,0,0,"110152",86.5,"B77","S","8",NA,"London, England"
+"246",1,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)","female",33,0,0,"110152",86.5,"B77","S","8",NA,"London  Vancouver, BC"

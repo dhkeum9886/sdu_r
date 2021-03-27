@@ -1,0 +1,5 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"207",1,0,"Minahan, Dr. William Edward","male",44,2,0,"19928",90,"C78","Q","",230,"Fond du Lac, WI"
+"208",1,1,"Minahan, Miss. Daisy E","female",33,1,0,"19928",90,"C78","Q","14",NA,"Green Bay, WI"
+"209",1,1,"Minahan, Mrs. William Edward (Lillian E Thorpe)","female",37,1,0,"19928",90,"C78","Q","14",NA,"Fond du Lac, WI"
+"210",1,1,"Mock, Mr. Philipp Edmund","male",30,1,0,"13236",57.75,"C78","C","11",NA,"New York, NY"

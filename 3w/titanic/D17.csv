@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"182",1,1,"Leader, Dr. Alice (Farnham)","female",49,0,0,"17465",25.9292,"D17","S","8",NA,"New York, NY"
+"289",1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)","female",48,0,0,"17466",25.9292,"D17","S","8",NA,"Brooklyn, NY"

@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"85",1,0,"Cumings, Mr. John Bradley","male",39,1,0,"PC 17599",71.2833,"C85","C","",NA,"New York, NY"
+"86",1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)","female",38,1,0,"PC 17599",71.2833,"C85","C","4",NA,"New York, NY"

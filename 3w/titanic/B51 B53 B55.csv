@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"50",1,1,"Cardeza, Mr. Thomas Drake Martinez","male",36,0,1,"PC 17755",512.3292,"B51 B53 B55","C","3",NA,"Austria-Hungary / Germantown, Philadelphia, PA"
+"51",1,1,"Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)","female",58,0,1,"PC 17755",512.3292,"B51 B53 B55","C","3",NA,"Germantown, Philadelphia, PA"
+"52",1,0,"Carlsson, Mr. Frans Olof","male",33,0,0,"695",5,"B51 B53 B55","S","",NA,"New York, NY"

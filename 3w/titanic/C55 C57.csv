@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"286",1,0,"Straus, Mr. Isidor","male",67,1,0,"PC 17483",221.7792,"C55 C57","S","",96,"New York, NY"
+"287",1,0,"Straus, Mrs. Isidor (Rosalie Ida Blun)","female",63,1,0,"PC 17483",221.7792,"C55 C57","S","",NA,"New York, NY"

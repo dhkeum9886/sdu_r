@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"37",1,1,"Bowerman, Miss. Elsie Edith","female",22,0,1,"113505",55,"E33","S","6",NA,"St Leonards-on-Sea, England Ohio"
+"70",1,1,"Chibnall, Mrs. (Edith Martha Bowerman)","female",NA,0,1,"113505",55,"E33","S","6",NA,"St Leonards-on-Sea, England Ohio"

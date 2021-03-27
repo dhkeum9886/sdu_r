@@ -1,0 +1,6 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"1188",3,1,"Sandstrom, Miss. Beatrice Irene","female",1,1,1,"PP 9549",16.7,"G6","S","13",NA,""
+"1189",3,1,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)","female",24,0,2,"PP 9549",16.7,"G6","S","13",NA,""
+"1190",3,1,"Sandstrom, Miss. Marguerite Rut","female",4,1,1,"PP 9549",16.7,"G6","S","13",NA,""
+"1231",3,0,"Strom, Miss. Telma Matilda","female",2,0,1,"347054",10.4625,"G6","S","",NA,""
+"1232",3,0,"Strom, Mrs. Wilhelm (Elna Matilda Persson)","female",29,1,1,"347054",10.4625,"G6","S","",NA,""

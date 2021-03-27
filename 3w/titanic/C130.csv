@@ -1,0 +1,2 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"130",1,1,"Geiger, Miss. Amalie","female",35,0,0,"113503",211.5,"C130","C","4",NA,""

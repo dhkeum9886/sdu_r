@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"124",1,1,"Frolicher-Stehli, Mr. Maxmillian","male",60,1,1,"13567",79.2,"B41","C","5",NA,"Zurich, Switzerland"
+"125",1,1,"Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)","female",48,1,1,"13567",79.2,"B41","C","5",NA,"Zurich, Switzerland"

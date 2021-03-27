@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"470",2,1,"Keane, Miss. Nora A","female",NA,0,0,"226593",12.35,"E101","Q","10",NA,"Harrisburg, PA"
+"574",2,1,"Troutt, Miss. Edwina Celia Winnie","female",27,0,0,"34218",10.5,"E101","S","16",NA,"Bath, England / Massachusetts"
+"585",2,1,"Webber, Miss. Susan","female",32.5,0,0,"27267",13,"E101","S","12",NA,"England / Hartford, CT"

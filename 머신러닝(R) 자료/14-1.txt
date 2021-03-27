@@ -1,0 +1,43 @@
+#-----------------------연관규칙생성
+# 지지도(SUPPORT): P(A∩B) :  A와 B가 동시에 일어난 횟수 / 전체 거래 횟수
+# 신뢰도(CONFIDENCE):A를 포함하는 거래 중 A와 B가 동시에 거래되는 비중
+#                     A라는 사건이 발생했을 때 B가 발생할 확률이 얼마나 높은지를 설명함
+#                     신뢰도 =  P(A∩B) / P(A)  :  A와 B가 동시에 일어난 횟수 / A가 일어난 횟수
+#  향상도(LIFT): A와 B가 동시에 거래된 비중을 A와B가 서로 독립된 사건일때 동시에 거래된 비중으로 나눈 값
+#   향상도 = P(A∩B) / P(A)*P(B)  = P (B|A) / P (B)
+# 품목 A와 B사이에 아무런 관계가 상호 관계가 없다면 향상도는 1이 됩니다. 
+# 향상도 1이상은 관계가 있음. 1이하는 서로 관계가 없으므로 같이 연관하면 - 실적이 됨
+
+
+install.packages(c("arules","arulesViz"))
+library(arules)
+library(arulesViz)
+
+
+name=c('a','a','a','b','b','b','b','c','c')
+product=c(1,2,3,4,1,2,3,1,2)
+
+df=data.frame(name,product)
+str(df)
+
+tmp=split(df$product,df$name)
+tmp
+
+trans<-as(tmp, "transactions")
+trans
+
+##-----------------연관규칙 생성
+rules<-apriori(trans)
+rules
+summary(rules)
+res=inspect(rules)
+res
+
+
+#---------------그래프
+plot(rules)
+plot(rules, method = "grouped")
+
+#"graph" method는 그래프 이론에 따라 물품들 간의 연관성을 그래프로 보여줍니다.
+#화살표의 두께는 지지도를 나타내고, 색상농도는 향상도(lift)를 나타냅니다.
+plot(rules, method = "graph")

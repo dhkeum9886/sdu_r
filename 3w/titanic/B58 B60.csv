@@ -1,0 +1,4 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"17",1,0,"Baxter, Mr. Quigg Edmond","male",24,0,1,"PC 17558",247.5208,"B58 B60","C","",NA,"Montreal, PQ"
+"18",1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)","female",50,0,1,"PC 17558",247.5208,"B58 B60","C","6",NA,"Montreal, PQ"
+"98",1,1,"Douglas, Mrs. Frederick Charles (Mary Helene Baxter)","female",27,1,1,"PC 17558",247.5208,"B58 B60","C","6",NA,"Montreal, PQ"

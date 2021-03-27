@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"27",1,1,"Bishop, Mr. Dickinson H","male",25,1,0,"11967",91.0792,"B49","C","7",NA,"Dowagiac, MI"
+"28",1,1,"Bishop, Mrs. Dickinson H (Helen Walton)","female",19,1,0,"11967",91.0792,"B49","C","7",NA,"Dowagiac, MI"

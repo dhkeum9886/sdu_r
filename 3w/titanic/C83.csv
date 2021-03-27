@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"149",1,0,"Harris, Mr. Henry Birkhardt","male",45,1,0,"36973",83.475,"C83","S","",NA,"New York, NY"
+"150",1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)","female",35,1,0,"36973",83.475,"C83","S","D",NA,"New York, NY"

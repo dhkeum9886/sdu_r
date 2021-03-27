@@ -1,0 +1,7 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"112",1,1,"Fortune, Miss. Alice Elizabeth","female",24,3,2,"19950",263,"C23 C25 C27","S","10",NA,"Winnipeg, MB"
+"113",1,1,"Fortune, Miss. Ethel Flora","female",28,3,2,"19950",263,"C23 C25 C27","S","10",NA,"Winnipeg, MB"
+"114",1,1,"Fortune, Miss. Mabel Helen","female",23,3,2,"19950",263,"C23 C25 C27","S","10",NA,"Winnipeg, MB"
+"115",1,0,"Fortune, Mr. Charles Alexander","male",19,3,2,"19950",263,"C23 C25 C27","S","",NA,"Winnipeg, MB"
+"116",1,0,"Fortune, Mr. Mark","male",64,1,4,"19950",263,"C23 C25 C27","S","",NA,"Winnipeg, MB"
+"117",1,1,"Fortune, Mrs. Mark (Mary McDougald)","female",60,1,4,"19950",263,"C23 C25 C27","S","10",NA,"Winnipeg, MB"

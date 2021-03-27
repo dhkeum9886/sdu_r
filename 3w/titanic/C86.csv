@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"97",1,0,"Douglas, Mr. Walter Donald","male",50,1,0,"PC 17761",106.425,"C86","C","",62,"Deephaven, MN / Cedar Rapids, IA"
+"99",1,1,"Douglas, Mrs. Walter Donald (Mahala Dutton)","female",48,1,0,"PC 17761",106.425,"C86","C","2",NA,"Deephaven, MN / Cedar Rapids, IA"

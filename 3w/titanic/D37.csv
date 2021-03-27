@@ -1,0 +1,3 @@
+"","pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"
+"304",1,0,"Warren, Mr. Frank Manley","male",64,1,0,"110813",75.25,"D37","C","",NA,"Portland, OR"
+"305",1,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)","female",60,1,0,"110813",75.25,"D37","C","5",NA,"Portland, OR"
