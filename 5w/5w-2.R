@@ -1,0 +1,190 @@
+setwd('D:/Project/sdu_r/5w')
+
+rm(list=ls())
+
+
+tmp=c(1,1,2,2,3,3,4,4,5)
+summary(tmp)
+fivenum(tmp)
+IQR(tmp)
+IQR1.5=IQR(tmp)*1.5
+IQR1.5
+
+
+
+
+
+#UCLA에서 제공하는 데이터 셋
+
+#http://www.dodomira.com/2016/02/12/logistic-regression-in-r/
+#admit: 지원자의 입학여부, 0 과 1
+#gre, gpa변수: 수치형으로 시험점수
+#rank는 지원자의 학교등급 1~4값임
+data <- read.csv("https://stats.idre.ucla.edu/stat/data/binary.csv")
+str(data)
+head(data)
+
+# Unique value를 확인 (같은 값이 여러번 반복되었으면 작은 값)
+sapply(data, function(x) length(unique(x)))
+
+
+## rank함수를 범주형 변수로 변환하여 1,2,3,4 등급을 변수4개처럼 사용함
+data$rank <-as.factor(data$rank)
+str(data)
+levels(data$rank)
+
+##caret(Classification And REgression Training) 패키지 다운로드
+#install.packages("caret")
+library(caret)
+
+
+set.seed(200)  #random함수시 seed번호로 같은 값 생성
+
+#createDataPartition함수는 y값을 고려한 데이터 분할 지원
+#p=.3은 30%추출
+
+# 아래 두개가 같은 명령. 
+data_db=createDataPartition(data$admit, p=.30)$Resample1
+data_dd=createDataPartition(data$admit, p=.30, list=F)
+
+
+data_train=data[data_db,]
+data_test=data[-data_db,]
+
+str(data_db) ; str(data_dd)
+str(data_train)  ##400개 데이중 30%
+head(data_train)
+
+
+str(data_test)  ##400개 데이중 30%
+head(data_test)
+
+
+print("---------train-----------------")
+prop.table(table(data_train$admit))
+
+print("---------test------------------")
+prop.table(table(data_test$admit))
+
+save(data, data_test, data_train, file="data.RData")
+ls()
+
+rm(list=ls()) 
+ls()
+
+load("data.Rdata")
+ls()
+
+#factor 타입 모자이크 플롯 시각화
+mosaicplot(admit ~ rank , data=data_train, color=TRUE,main="rank별 입학여부")
+
+
+head(data$gpa)
+head(as.integer(data$gpa))
+tmp=data.frame(admit=data$admit, gre=as.integer(data$gre/100),gpa=as.integer(data$gpa),rank=data$rank)
+str(tmp)
+
+mosaicplot(admit ~ rank+gre , data=tmp, color=TRUE,main="입학여부(rank,gre)")
+mosaicplot(admit ~ rank+gpa , data=tmp, color=TRUE,main="rank(gpa)별 입학여부")
+
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+model
+summary(model)
+
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+library(car) # 아웃라이터 사용하기 위함.
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+
+##이상치 데이터 제거법, 안나올때까지 계속함
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+outlierTest(model)
+Val_out=names(outlierTest(model)[[1]])
+Val_out
+data2=subset(data_train,rownames(data_train) !=Val_out)
+data_train=data2
+
+
+#Rank: Estimate 열의 부호가 마이너스(-) 이므로
+#랭크가 낮은 학교의 지원자의 합격 확률은 낮아진다고 볼 수 있음
+model=glm(admit~.,data=data_train, family='binomial'(link='logit'))
+summary(model)
+
+
+#Resid.Dev값은 gre, gpa, rank를 포함하였을때 성능이 얼마나 나아지는지 비교
+#rank값이 가장 적음
+anova(model, test="Chisq")
+
+
+#로지스틱회귀에서 R2값 구하기
+install.packages("pscl")
+library(pscl)
+
+
+##r2ML 20%만 설명가능함을 보여줌
+pR2(model)
+
+#모델 평가
+#ROC커브
+#AUC가 1에 가까울수록 모델의 예측 정확도가 높다고 하 수 있음.
+#ROCR 패키지를 사용하여 작성함.
+install.packages("ROCR")
+library(ROCR)
+
+##ROC값이 왼쪽 위로 올라갈수록 좋음
+p = predict(model, newdata=data_test, type="response")
+pr = prediction(p, data_test$admit)
+prf = performance(pr, measure = "tpr", x.measure = "fpr")
+plot(prf)
+
+
+#AUC는 ROC곡선이 위로 올라갈수록 넓어지게됨
+#AUC는 모델이 완벽하게 예측할수록 1, 무작위 예측과 비슷하면 0.5
+#excellent=0.9~1/ good=0.8~0.9 /fair=0.7~0.8  / poor=0.6~0.7  / fail=0.5~0.6
+auc <- performance(pr, measure = "auc")
+auc <- auc@y.values[[1]]
+auc  #0.632로 poor에 속함
+
+##모델은 유의하지만 예측력은 그다지 높지 않음.
+##설명변수를 추가하고, 유의하지 않은 변수를 제거하고 여러번 모델을 다시 fitting해야함
+
+##1. 적당한 설명변수를 입력
+##2. 적절한 모델/알고리즘 선택
+##3. 위의 1~2번 반복
